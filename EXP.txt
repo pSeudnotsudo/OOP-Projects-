@@ -1,0 +1,10 @@
+Q1
+A list named TheData is created with some integer values.
+A function named InsertionSort is defined, which takes TheData as an argument.
+Inside the function, a for loop is initiated to iterate through each element of TheData.
+For each element, a new variable DataToInsert is created, which holds the current element.
+Two more variables Inserted and NextValue are initialized. Inserted is a flag variable to check if the current element has been inserted in its correct position, and NextValue holds the index of the element to be compared with DataToInsert.
+A while loop is initiated, which runs as long as NextValue is greater than or equal to 0 and Inserted is not equal to 1.
+Inside the while loop, if the DataToInsert is less than the element at NextValue index, then the element at NextValue index is shifted to the next index, and NextValue is decremented by 1. This process continues until either DataToInsert is greater than or equal to the element at NextValue index or NextValue becomes less than 0.
+Once the while loop ends, DataToInsert is inserted at the NextValue + 1 index.
+The Inserted flag is set to 1, indicating that the current element has been inserted in its correct position
